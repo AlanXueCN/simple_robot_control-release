@@ -1,0 +1,12 @@
+Source: ros-hydro-simple-robot-control
+Section: misc
+Priority: extra
+Maintainer: lil1pal <lil1pal@todo.todo>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-actionlib, ros-hydro-catkin, ros-hydro-geometry-msgs, ros-hydro-message-generation, ros-hydro-moveit-msgs, ros-hydro-pr2-controllers-msgs, ros-hydro-rospy, ros-hydro-tf, ros-hydro-trajectory-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-simple-robot-control
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-actionlib, ros-hydro-geometry-msgs, ros-hydro-message-runtime, ros-hydro-moveit-msgs, ros-hydro-pr2-controllers-msgs, ros-hydro-rospy, ros-hydro-tf, ros-hydro-trajectory-msgs
+Description: The simple_robot_control package
