@@ -1,0 +1,23 @@
+ros-hydro-simple-robot-control (0.0.2-0precise) precise; urgency=high
+
+  * preempt action for the arm functionality
+  * Contributors: Karol Hausman (CR/RTC1.1-NA)
+
+ -- lil1pal <lil1pal@todo.todo>  Tue, 01 Jul 2014 07:00:00 -0000
+
+ros-hydro-simple-robot-control (0.0.1-0precise) precise; urgency=high
+
+  * making seed_angle naming and default values consistent
+  * Whoops. Fixing toToPose to actually work with seed_angles
+  * Merge pull request #3 <https://github.com/bosch-ros-pkg/simple_robot_control/issues/3> from bosch-ros-pkg/hydro-devel-import
+    adding proper gencpp dependency in CMakeLists.txt
+  * adding proper gencpp dependency in CMakeLists.txt
+  * Merge pull request #2 <https://github.com/bosch-ros-pkg/simple_robot_control/issues/2> from bosch-ros-pkg/hydro-devel-import
+    Initial commit of porting simple_robot_control to work with Hydro/catkin...
+  * Initial commit of porting simple_robot_control to work with Hydro/catkin/MoveIt
+  * Initial commit
+  * Contributors: Dejan Pangercic, Laura Lindzey
+
+ -- lil1pal <lil1pal@todo.todo>  Thu, 19 Dec 2013 08:00:00 -0000
+
+
